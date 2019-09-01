@@ -1,0 +1,67 @@
+Device:  MINI dc:b9:9d:18:0a:f9
+	Service:  00001800-0000-1000-8000-00805f9b34fb
+		Characteristic:  00002a00-0000-1000-8000-00805f9b34fb
+			+  READ
+		Characteristic:  00002a01-0000-1000-8000-00805f9b34fb
+			+  READ
+		Characteristic:  00002a04-0000-1000-8000-00805f9b34fb
+			+  READ
+
+	Service:  00001801-0000-1000-8000-00805f9b34fb
+		Characteristic:  00002a05-0000-1000-8000-00805f9b34fb
+			+  INDICATE
+
+	BLEService
+	Service:  00020001574f4f2053706865726f2121
+		Characteristic:  00020003574f4f2053706865726f2121
+			+  WRITE NO RESPONSE TXPowerCharacteristic
+		Characteristic:  00020002574f4f2053706865726f2121
+			+  WRITE NOTIFY WakeCharacteristic
+		Characteristic:  00020004574f4f2053706865726f2121
+			+  READ
+		Characteristic:  00020005574f4f2053706865726f2121
+			+  WRITE NO RESPONSE WRITE 00020005574f4f2053706865726f2121
+
+	Service:  0000180f-0000-1000-8000-00805f9b34fb
+		Characteristic:  00002a19-0000-1000-8000-00805f9b34fb
+			+  READ NOTIFY
+
+	RobotControlService
+	Service:  00010001574f4f2053706865726f2121
+		Characteristic:  00010002574f4f2053706865726f2121
+			+  WRITE NO RESPONSE WRITE NOTIFY CommandsCharacteristic
+		Characteristic:  00010003574f4f2053706865726f2121
+			+  WRITE NO RESPONSE WRITE NOTIFY ResponseCharacteristic
+
+Device: SPRK d3:57:0a:71:5f:d4
+	RobotControlService
+	Service:  22bb746f2ba075542d6f726568705327
+		Characteristic:  22bb746f2ba175542d6f726568705327
+			+  WRITE NO RESPONSE WRITE CommandsCharacteristic
+		Characteristic:  22bb746f2ba675542d6f726568705327
+			+  NOTIFY ResponseCharacteristic
+
+	BLEService
+	Service:  22bb746f2bb075542d6f726568705327
+		Characteristic:  22bb746f2bb175542d6f726568705327
+			+  READ WRITE
+		Characteristic:  22bb746f2bb275542d6f726568705327
+			+  WRITE TXPowerCharacteristic
+		Characteristic:  22bb746f2bb675542d6f726568705327
+			+  READ WRITE NO RESPONSE WRITE NOTIFY
+		Characteristic:  22bb746f2bb775542d6f726568705327
+			+  READ WRITE NO RESPONSE WRITE
+		Characteristic:  22bb746f2bb875542d6f726568705327
+			+  READ
+		Characteristic:  22bb746f2bb975542d6f726568705327
+			+  READ
+		Characteristic:  22bb746f2bba75542d6f726568705327
+			+  READ
+		Characteristic:  22bb746f2bbd75542d6f726568705327
+			+  WRITE NO RESPONSE WRITE AntiDosCharacteristic
+		Characteristic:  22bb746f2bbe75542d6f726568705327
+			+  READ WRITE
+		Characteristic:  22bb746f2bbf75542d6f726568705327
+			+  READ WRITE NO RESPONSE WRITE WakeCharacteristic
+		Characteristic:  22bb746f3bba75542d6f726568705327
+			+  READ WRITE NO RESPONSE WRITE
